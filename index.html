@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">ASSIGNMENT 1</div>
+        
+        <div class="table_container">     
+             
+    <table class="table">
+        <tr class="row_head">
+          <th class="row">SL.No.</th>
+          <th class="row">First Name</th>
+          <th class="row">Last Name</th>
+          <th class="row">City</th>
+          <th class="row">Country</th>
+        </tr>
+        <tbody id="tableBody">
+        <tr>
+          <td>1</td>
+          <td><input type="text" placeholder="First name" class="input_text"></td>
+          <td><input type="text" placeholder="Last name" class="input_text"></td>
+          <td><input type="text" placeholder="Enter city" class="input_text"></td>
+          <td><input type="text" placeholder="Enter country" class="input_text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="text" placeholder="First name" class="input_text"></td>
+          <td><input type="text" placeholder="Last name" class="input_text"></td>
+          <td><input type="text" placeholder="Enter city" class="input_text"></td>
+          <td><input type="text" placeholder="Enter country" class="input_text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><input type="text" placeholder="First name" class="input_text"></td>
+            <td><input type="text" placeholder="Last name" class="input_text"></td>
+            <td><input type="text" placeholder="Enter city" class="input_text"></td>
+            <td><input type="text" placeholder="Enter country" class="input_text"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><input type="text" placeholder="First name" class="input_text"></td>
+          <td><input type="text" placeholder="Last name" class="input_text"></td>
+          <td><input type="text" placeholder="Enter city" class="input_text"></td>
+          <td><input type="text" placeholder="Enter country" class="input_text"></td>
+        </tr>
+    </tbody>
+      </table> 
+
+      <div class="btn_div">
+        <button class="btn_bottom" onclick="belowTr('tableBody')">Add row to bottom</button>
+        <button class="btn_top" onclick="aboveTr('tableBody')">Add row to top</button>
+        </div>
+
+        </div>
+
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
